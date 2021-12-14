@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Terasol Test</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sort_button_description">sort Button for sorting list items</string>
+    <string name="filter_button_description">filter Button to Filter list items</string>
+    <string name="plot_text">\"Plot - \"</string>
+    <string name="pre_text_for_details">%1$s - %2$s</string>
+</resources>

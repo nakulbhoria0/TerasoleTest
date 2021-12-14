@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/moviesListViewFragment">
+
+    <fragment
+        android:id="@+id/movieDetailsFragment"
+        android:name="com.example.terasoletest.MovieDetailsFragment"
+        android:label="MovieDetailsFragment"
+        tools:layout="@layout/fragment_movie_details">
+        <argument
+            android:name="databaseMovie"
+            app:argType="com.example.terasoletest.DatabaseMovie" />
+    </fragment>
+    <fragment
+        android:id="@+id/moviesListViewFragment"
+        android:name="com.example.terasoletest.MoviesListViewFragment"
+        android:label="MoviesListViewFragment" >
+        <action
+            android:id="@+id/action_moviesListViewFragment_to_movieDetailsFragment"
+            app:destination="@id/movieDetailsFragment" />
+    </fragment>
+</navigation>

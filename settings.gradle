@@ -1,0 +1,2 @@
+rootProject.name = "Terasole Test"
+include ':app'
